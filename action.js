@@ -14,7 +14,7 @@ async function unitTest() {
       console.log(`Invalid type title is not string -------------------`);
       break;
     } else if (typeof obj.body !== 'string') {
-      console.log(`Invalid type title is not string -------------------`);
+      console.log(`Invalid type body is not string -------------------`);
       break;
     } else {
       console.log(`Posts id ${obj.id} looks good! -------------------`);
