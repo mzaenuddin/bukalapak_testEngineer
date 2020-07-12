@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.firefox.firefoxDriver;
 
-public class RegisterBukalapak{
+public class searchProductBukalapak{
     public static void main(string[] args)
     {
         WebDriver driver = new firefoxFriver();
@@ -15,3 +15,4 @@ public class RegisterBukalapak{
         driver.findElement(By.id("commit")).click();
     }
 }
+
