@@ -13,11 +13,13 @@ public class RegisterBukalapak{
 
         driver.findElement(By.id("user_name")).sendKeys("TestEngineer");
         driver.findElement(By.id("email_or_phone")).sendKeys("TestEngineer@me.com");
-        sel3.selectByIndex(3);
+        driver.findElement(By.id("user_gender_laki-laki")).sendKeys("1");
+        radio1 = driver.findElement(By.id("user_gender_laki"));							
+        radio1.click()
         driver.findElement(By.id("user_name")).sendKeys("testEngineer");
         driver.findElement(By.id("user_password")).sendKeys("P@$$w0rd1234");
         driver.findElement(By.id("user_password_confirmation")).sendKeys("P@$$w0rd1234");
-        driver.findElement(By.id("user_agreement")).sendKeys("1");
+        driver.findElement(By.id("user_agreement")).click();
         driver.findElement(By.id("commit")).click();
     }
 }
