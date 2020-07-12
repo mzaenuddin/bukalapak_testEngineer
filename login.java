@@ -10,7 +10,7 @@ public class LoginBukalapak{
         WebDriver driver = new firefoxFriver();
         driver.get("https//bukalapak.com");
         driver.findElement(By.id("user_session_username")).sendKeys("rmlatansa@gmail.com");
-        driver.findElement(By.id("user_session_password")).sendKeys("PASSWORD");
+        driver.findElement(By.id("user_session_password")).sendKeys("P@$$w0rd1234");
         driver.findElement(By.id("commit")).click();
     }
 }
