@@ -12,7 +12,6 @@ public class searchProductBukalapak{
         driver.manager().window().maximize();
 
         driver.findElement(By.id("v-omnisearch__input")).sendKeys("sepatu Keren");
-        driver.findElement(By.id("commit")).click();
     }
 }
 
