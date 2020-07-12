@@ -48,25 +48,3 @@ async function unitTest() {
 
 unitTest()
 
-
-/*
-const logBtn = document.getElementById('log');
-logBtn.addEventListener('click', fetchData);
-
-async function fetchData() {
-
-  const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
-    method: 'POST',
-    body: JSON.stringify({
-      title: 'recommendation',
-      body: 'motorcycle',
-      userId: 12
-    }),
-    headers: {
-      "Content-type": "application/json; charset=UTF-8"
-    }
-  })
-  .then(response => response.json())
-  .then(json => console.log(json))
-}
-*/
